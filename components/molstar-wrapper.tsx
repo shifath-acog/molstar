@@ -254,18 +254,6 @@ export function MolStarWrapper({ pdbText, artifactName, args = [] }: MolStarWrap
       />
       <div className="p-4 border-t bg-gray-50 flex justify-between items-center">
         <div className="flex gap-2">
-          <Button variant="outline" size="sm" onClick={handleReset}>
-            <RotateCcw className="h-4 w-4 mr-1" />
-            Reset View
-          </Button>
-          <Button variant="outline" size="sm" onClick={handleZoomIn}>
-            <ZoomIn className="h-4 w-4 mr-1" />
-            Zoom In
-          </Button>
-          <Button variant="outline" size="sm" onClick={handleZoomOut}>
-            <ZoomOut className="h-4 w-4 mr-1" />
-            Zoom Out
-          </Button>
         </div>
         <Button onClick={handleDownload} size="sm">
           <Download className="h-4 w-4 mr-1" />
